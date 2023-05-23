@@ -176,3 +176,9 @@ footer {
 .contentfooter p {
   margin-bottom: 0.2rem;
 }
+
+footer img {
+  margin-top: 0.5rem;
+  aspect-ratio: 1/1;
+  width: 4%;
+}
