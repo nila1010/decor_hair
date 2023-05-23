@@ -41,7 +41,7 @@ body {
 }
 
 main {
-  max-width: 1200px;
+  width: 1300px;
   flex-grow: 1;
   margin: 0 auto 0 auto;
 }
@@ -78,7 +78,8 @@ h3 {
 p {
   font-family: "bodoni", sans-serif;
   color: #000;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  line-height: 1.8rem;
 }
 
 /*CLASSES
@@ -89,7 +90,6 @@ p {
 }
 
 .banner {
-  max-height: 500px;
   display: grid;
   place-items: center;
 }
@@ -107,6 +107,10 @@ p {
   grid-column: 1;
 }
 
+.logo {
+  margin: 1.2rem 0 0 2rem;
+}
+
 /*HEADER
 ------------------------*/
 header {
@@ -117,6 +121,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  height: 6rem;
 }
 
 /* NAVIGATION
@@ -136,7 +141,7 @@ nav a {
 }
 
 .bestiltid {
-  margin-right: 1rem;
+  margin-right: 2rem;
   background-color: #f0e9dc;
 }
 
