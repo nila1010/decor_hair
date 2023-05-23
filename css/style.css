@@ -41,7 +41,8 @@ body {
 }
 
 main {
-  width: 1300px;
+  width: 100%;
+  max-width: 1300px;
   flex-grow: 1;
   margin: 0 auto 0 auto;
 }
