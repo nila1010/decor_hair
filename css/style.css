@@ -1,0 +1,173 @@
+/*
+FONTE
+----------
+H1 - Equinox
+text - Bodoni
+read text - arial 
+
+COLOR
+----------
+light green - #D2DDC5
+dark green - #969E8D
+black - #000
+white - #fff
+orange - #F0B15B
+gray - #F0E9DC
+------------------------*/
+
+/* GLOBAL
+-------------------*/
+
+@font-face {
+  font-family: "bodoni";
+  src: url(/1574087879938-bodoni-72-book-webfont.woff);
+}
+
+@font-face {
+  font-family: "hebrew";
+  src: url(/arial-hebrew-webfont.woff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 1200px;
+  flex-grow: 1;
+  margin: 0 auto 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+/*TEXT
+------*/
+
+h1 {
+  font-family: "bodoni", sans-serif;
+  color: #000;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: "bodoni", sans-serif;
+  color: #f0b15b;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: "bodoni", sans-serif;
+  color: #000;
+  font-size: 1rem;
+}
+
+p {
+  font-family: "bodoni", sans-serif;
+  color: #000;
+  font-size: 0.8rem;
+}
+
+/*CLASSES
+---------*/
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.banner {
+  max-height: 500px;
+  display: grid;
+  place-items: center;
+}
+
+.banner h1:first-child {
+  color: #fff;
+  font-size: 12cqw;
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 10;
+}
+
+.banner img:last-child {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+/*HEADER
+------------------------*/
+header {
+  background-color: #d2ddc5;
+}
+
+.flexheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+/* NAVIGATION
+-------------*/
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-family: "bodoni", sans-serif;
+  font-size: 1rem;
+}
+
+.bestiltid {
+  margin-right: 1rem;
+  background-color: #f0e9dc;
+}
+
+nav li:hover {
+  transform: scale(1.1);
+}
+
+.active {
+  border-bottom: 2px solid #f0b15b;
+}
+
+/* FOOTER
+-------------*/
+
+footer {
+  display: flex;
+  background-color: #d2ddc5;
+  padding: 1rem 0 1rem 0;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.contentfooter {
+  margin: 0 0 1rem 1rem;
+}
+
+.contentfooter h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.contentfooter p {
+  margin-bottom: 0.2rem;
+}
