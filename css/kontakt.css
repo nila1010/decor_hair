@@ -1,0 +1,86 @@
+.line {
+  border-right: 2px solid #f0e9dc;
+}
+
+article {
+  margin-top: 3rem;
+}
+
+article div {
+  margin-bottom: 1rem;
+}
+
+article h1 {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.grid_1_1 {
+  gap: 4rem;
+}
+
+.timegrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+input {
+  border: 3px solid #f0e9dc;
+  border-radius: 4px;
+  font-family: "bodoni", sans-serif;
+  color: #000;
+  height: 1.5rem;
+  width: 90%;
+  padding: 10px;
+}
+
+.email {
+  grid-row: 2;
+}
+
+.email input {
+  width: 195%;
+}
+
+.meddelelse {
+  grid-row: 3;
+}
+
+.meddelelse input {
+  width: 195%;
+}
+
+button {
+  grid-row: 4;
+  margin-top: 7rem;
+  width: 8rem;
+  height: 2rem;
+  background-color: #f0e9dc;
+  border: 0;
+  filter: drop-shadow(2px 2px 3px #f0e9dc);
+}
+
+article img {
+  width: 100%;
+}
+
+.map {
+  padding-bottom: 25%;
+  position: relative;
+}
+
+.map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  filter: grayscale(70%);
+}
