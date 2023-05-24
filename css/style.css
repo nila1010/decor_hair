@@ -60,14 +60,14 @@ h1 {
   font-family: "bodoni", sans-serif;
   color: #000;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 h2 {
   font-family: "bodoni", sans-serif;
   color: #f0b15b;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 h3 {
@@ -144,6 +144,10 @@ nav a {
 .bestiltid {
   margin-right: 2rem;
   background-color: #f0e9dc;
+}
+
+.bestiltid a {
+  border: 10px solid #f0e9dc;
 }
 
 nav li:hover {
