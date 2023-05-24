@@ -59,6 +59,9 @@
     text-underline-offset: 6px;
     text-decoration-thickness: 1.5px;
   }
+  .bund {
+    padding: 0% 0% 15% 4%;
+  }
   /*****************PRIS GRID MOBIL********************/
   .grid_1_1_1_1_1 {
     display: grid;
@@ -135,6 +138,9 @@
   }
   .bund {
     padding: 0% 0% 3% 4%;
+  }
+  .p_pris {
+    color: #f0b15b;
   }
   .p_kom {
     font-size: 0.8rem;
