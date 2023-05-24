@@ -108,6 +108,11 @@ p {
 
 .logo {
   margin: 1.2rem 0 0 2rem;
+  font-family: "bodoni", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+  text-decoration: none;
 }
 
 /*HEADER

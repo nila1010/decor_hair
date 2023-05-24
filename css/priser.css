@@ -1,70 +1,92 @@
 /***************************MOBIL VERSION******************************/
-.container_hero {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 6rem;
-  filter: drop-shadow(4px 2px 5px #00000069);
-}
-.menu_style {
-  padding: 1% 3% 1% 3%;
-}
-.pris_menu {
-  padding: 1% 5% 2% 5%;
-  display: flex;
-  justify-content: space-between;
-}
-.a_menu {
-  position: relative;
-  font-size: 0.7rem;
-  text-decoration: none;
-  color: black;
-}
-hr {
-  border: none;
-  border-top: 1px solid #f0b15b;
-  overflow: visible;
-  text-align: center;
-  padding: 1% 8% 1% 8%;
-}
-.p_pris {
-  color: #f0b15b;
-}
+@media (max-width: 700px) {
+  .container_hero {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 6rem;
+    filter: drop-shadow(4px 2px 5px #00000069);
+  }
+  .menu_style {
+    padding: 1% 3% 1% 3%;
+  }
+  .pris_menu {
+    padding: 1% 3% 2% 3%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .a_menu {
+    position: relative;
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: black;
+  }
+  /*****************STREGER MOBIL********************/
 
-/*****************PRIS GRID MOBIL********************/
-.grid_1_1_1_1_1 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  padding: 0% 0% 0% 4%;
-}
-.one {
-  grid-column: 1;
-}
-.two {
-  grid-column: 2;
-  margin: 0 -40px;
-}
-.three {
-  grid-column: 3;
-}
-.four {
-  grid-column: 2;
-  grid-row: 3;
-  margin: 0 -40px;
-}
-.five {
-  grid-column: 3;
-  grid-row: 3;
-}
+  hr {
+    border: none;
+    border-top: 1px solid #000;
+    overflow: visible;
+    text-align: center;
+    padding: 1% 3% 1% 3%;
+  }
 
+  .hr_style {
+    padding: 2% 3% 0% 3%;
+  }
+  /*****************PRIS TEKST MOBIL********************/
+
+  .p_tekst {
+    font-size: 0.8rem;
+  }
+  .p_pris {
+    color: #f0b15b;
+  }
+  .p_kom {
+    font-size: 0.5rem;
+  }
+  .h3_kat {
+    font-size: 1rem;
+    text-decoration: underline;
+    text-decoration-color: #f0b15b;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1.5px;
+  }
+  /*****************PRIS GRID MOBIL********************/
+  .grid_1_1_1_1_1 {
+    display: grid;
+    grid-template-columns: 170px 100px 100px;
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 0% 0% 0% 4%;
+  }
+  .one {
+    grid-column: 1;
+  }
+  .two {
+    grid-column: 2;
+    margin: 0 -40px;
+  }
+  .three {
+    grid-column: 3;
+  }
+  .four {
+    grid-column: 2;
+    grid-row: 3;
+    margin: 0 -40px;
+  }
+  .five {
+    grid-column: 3;
+    grid-row: 3;
+  }
+}
 /***************************DESKTOP VERSION******************************/
 
 @media (min-width: 700px) {
@@ -92,7 +114,17 @@ hr {
     grid-column: 5;
     grid-row: 1;
   }
-
+  /*****************STREGER********************/
+  hr {
+    border: none;
+    height: 2px;
+    border-top: 1px solid #000;
+    overflow: visible;
+    text-align: center;
+  }
+  .hr_style {
+    padding: 2% 3% 2% 3%;
+  }
   /*****************TEKST********************/
   .h3_kat {
     font-size: 1.5rem;
@@ -100,9 +132,6 @@ hr {
     text-decoration-color: #f0b15b;
     text-underline-offset: 6px;
     text-decoration-thickness: 2px;
-  }
-  .hr_style {
-    padding: 2% 3% 0% 3%;
   }
   .bund {
     padding: 0% 0% 3% 4%;
@@ -113,7 +142,7 @@ hr {
   /*****************MENU********************/
   .a_menu {
     position: relative;
-    font-size: 1rem;
+    font-size: 1wrem;
     text-decoration: none;
     color: black;
   }
@@ -124,17 +153,10 @@ hr {
   .pris_menu {
     display: flex;
     justify-content: space-between;
-    padding: 2% 5% 2% 5%;
+    padding: 0% 5% 2% 5%;
   }
   .menu_style {
-    padding: 0% 3% 0% 3%;
-  }
-  hr {
-    border: none;
-    height: 2px;
-    border-top: 1px solid #f0b15b;
-    overflow: visible;
-    text-align: center;
+    padding: 2% 3% 2% 3%;
   }
 
   .center {
