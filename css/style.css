@@ -42,12 +42,9 @@ body {
 
 main {
   width: 100%;
+  max-width: 1200px;
   flex-grow: 1;
   margin: 0 auto 0 auto;
-}
-
-.max_width {
-  max-width: 1300px;
 }
 
 img {
@@ -92,6 +89,12 @@ p {
 .banner {
   display: grid;
   place-items: center;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
 .banner h1:first-child {
