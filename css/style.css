@@ -121,6 +121,7 @@ p {
 ------------------------*/
 header {
   background-color: #d2ddc5;
+  z-index: 100;
 }
 
 .flexheader {
@@ -168,16 +169,18 @@ nav a {
   filter: drop-shadow(4px 2px 5px #00000069);
 }
 
-/*.bestiltid a {
-  border: 10px solid #f0e9dc;
-}*/
-
 nav li:hover {
   transform: scale(1.1);
 }
 
 .active {
   border-bottom: 2px solid #f0b15b;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 /* FOOTER
