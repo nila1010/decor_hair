@@ -182,6 +182,10 @@ nav li:hover {
   top: 0;
 }
 
+.toggle-btn {
+  display: none;
+}
+
 /* FOOTER
 -------------*/
 
@@ -211,4 +215,45 @@ footer img {
   margin-top: 0.5rem;
   aspect-ratio: 1/1;
   width: 30px;
+}
+
+footer div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+
+@media (max-width: 700px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .toggle-btn {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+  }
+
+  #burgerlogo {
+    background-color: transparent;
+    aspect-ratio: 1/1;
+    width: 100%;
+  }
+
+  nav {
+    height: 2rem;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav.shown ul {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    background-color: #d2ddc5;
+  }
 }
