@@ -126,6 +126,7 @@ header {
   justify-content: space-between;
   align-items: baseline;
   height: 6rem;
+  padding: 0% 2% 0% 2%;
 }
 
 /* NAVIGATION
@@ -134,7 +135,7 @@ header {
 nav ul {
   display: flex;
   list-style: none;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 nav a {
@@ -145,13 +146,24 @@ nav a {
 }
 
 .bestiltid {
-  margin-right: 2rem;
-  background-color: #f0e9dc;
+  color: white;
+  background: #f0e9dc;
+  border: 1% solid transparent;
+  padding: 1% 5%;
+  line-height: 1;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: all 0.55s ease;
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 5%;
+  width: 100%;
+  filter: drop-shadow(4px 2px 5px #00000069);
 }
 
-.bestiltid a {
+/*.bestiltid a {
   border: 10px solid #f0e9dc;
-}
+}*/
 
 nav li:hover {
   transform: scale(1.1);
