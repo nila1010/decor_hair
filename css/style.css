@@ -144,6 +144,7 @@ nav ul {
   display: flex;
   list-style: none;
   gap: 2rem;
+  flex-grow: 1;
 }
 
 nav li {
@@ -189,7 +190,8 @@ footer {
   background-color: #d2ddc5;
   padding: 2rem 0px 1rem 0;
   justify-content: center;
-  gap: 27rem;
+  gap: 20%;
+  flex-grow: 1;
 }
 
 .contentfooter {
