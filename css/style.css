@@ -159,16 +159,9 @@ nav a {
   color: white;
   background: #f0e9dc;
   margin-right: 1rem;
-  /*  border: 1% solid transparent;*/
-  /* padding: 1% 5%; */
-  /* line-height: 1;
-  font-size: 1rem;
-  text-transform: uppercase; */
+
   transition: all 0.55s ease;
-  /*   list-style: none;
-  text-decoration: none; */
-  /*   margin-bottom: 5%;
-  width: 100%; */
+
   filter: drop-shadow(4px 2px 5px #00000069);
 }
 
