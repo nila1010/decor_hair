@@ -84,3 +84,32 @@ article img {
   position: absolute;
   filter: grayscale(70%);
 }
+
+@media (max-width: 600px) {
+  .grid_1_1 {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .line {
+    border: 0px;
+  }
+
+  article h1 {
+    text-align: center;
+  }
+
+  .timegrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .kontaktmig {
+    margin-top: -4rem;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+}
