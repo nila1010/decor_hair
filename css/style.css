@@ -42,12 +42,9 @@ body {
 
 main {
   width: 100%;
+  max-width: 1200px;
   flex-grow: 1;
   margin: 0 auto 0 auto;
-}
-
-.max_width {
-  max-width: 1300px;
 }
 
 img {
@@ -92,6 +89,12 @@ p {
 .banner {
   display: grid;
   place-items: center;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
 .banner h1:first-child {
@@ -124,6 +127,14 @@ p {
 header {
   background-color: #d2ddc5;
   z-index: 100;
+  filter: drop-shadow(4px 2px 5px #00000069);
+}
+.header {
+  background-color: #d2ddc5;
+  z-index: 100;
+}
+.header_transparent {
+  background-color: #d2ddc55e; /* Transparent background color */
 }
 
 .flexheader {
@@ -141,6 +152,7 @@ nav ul {
   display: flex;
   list-style: none;
   gap: 2rem;
+  flex-grow: 1;
 }
 
 nav li {
@@ -158,16 +170,9 @@ nav a {
   color: white;
   background: #f0e9dc;
   margin-right: 1rem;
-  /*  border: 1% solid transparent;*/
-  /* padding: 1% 5%; */
-  /* line-height: 1;
-  font-size: 1rem;
-  text-transform: uppercase; */
+
   transition: all 0.55s ease;
-  /*   list-style: none;
-  text-decoration: none; */
-  /*   margin-bottom: 5%;
-  width: 100%; */
+
   filter: drop-shadow(4px 2px 5px #00000069);
 }
 
@@ -185,6 +190,10 @@ nav li:hover {
   top: 0;
 }
 
+.toggle-btn {
+  display: none;
+}
+
 /* FOOTER
 -------------*/
 
@@ -193,7 +202,8 @@ footer {
   background-color: #d2ddc5;
   padding: 2rem 0px 1rem 0;
   justify-content: center;
-  gap: 27rem;
+  gap: 20%;
+  flex-grow: 1;
 }
 
 .contentfooter {
@@ -213,4 +223,45 @@ footer img {
   margin-top: 0.5rem;
   aspect-ratio: 1/1;
   width: 30px;
+}
+
+footer div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+
+@media (max-width: 700px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .toggle-btn {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+  }
+
+  #burgerlogo {
+    background-color: transparent;
+    aspect-ratio: 1/1;
+    width: 100%;
+  }
+
+  nav {
+    height: 2rem;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav.shown ul {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    background-color: #d2ddc5;
+  }
 }

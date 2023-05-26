@@ -1,6 +1,123 @@
+/******* overskrift og p tekst index der skal stå i midten******/
+
+.index_overskrift {
+  margin: 4% 0 3% 5%;
+}
 .p_midt {
+  margin: 3% 5% 7% 5%;
+}
+/**** knap *****/
+
+.bestiltid_index {
+  color: rgb(0, 0, 0);
+  background: #f0e9dc;
+  text-decoration: none;
+  transition: all 0.55s ease;
+  padding: 2% 3% 2% 3%;
+  filter: drop-shadow(4px 2px 5px #00000069);
+  font-family: "bodoni", sans-serif;
   text-align: center;
+  font-size: 125%;
+}
+.boks_grid {
+  display: grid;
+  grid-template-columns: 1;
+}
+.boks {
+  aspect-ratio: 40/38;
+  width: 80%;
+  grid-row: 1;
+  grid-column: 1;
+  background-color: #d2ddc5;
+  filter: drop-shadow(4px 2px 5px #00000069);
+
+  margin-left: 8%;
+  margin-top: 8%;
 }
 
-@media (min-width: 750px) {
+.img_index {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 10;
+}
+.grid_1_index {
+  margin: 0 0 0 5%;
+}
+.studierabat {
+  margin: 20% 0 10% 5%;
+}
+.index_grid_indhold1 {
+  margin: 10% 0 6% 0;
+}
+.index_grid_indhold2 {
+  margin: 0% 0 10% 0;
+}
+/******** billeder på index med aflang grøn box *******/
+
+.green {
+  aspect-ratio: 151/16;
+  grid-row: 1;
+  grid-column: 1;
+  background-color: #d2ddc5;
+  filter: drop-shadow(4px 2px 5px #00000069);
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+.produkt_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.produkter {
+  width: 30%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 10;
+}
+.flex p {
+  background-color: rgba(240, 233, 222, 0.6);
+}
+.flex {
+  display: flex;
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 10;
+  justify-content: space-around;
+  margin-left: 5%;
+}
+
+@media (min-width: 700px) {
+  .grid_1_index {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    padding: 1% 4% 4% 4%;
+  }
+  .p_midt {
+    text-align: center;
+    margin: 2% 0 5% 0;
+  }
+  .studierabat {
+    margin: 5% 0 10% 5%;
+    text-align: center;
+  }
+  .index_overskrift {
+    margin: 4% 0 0% 5%;
+  }
+  .video {
+    width: 100vw;
+    position: relative;
+    left: 0%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
 }
