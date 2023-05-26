@@ -4,8 +4,9 @@
   margin: 4% 0 3% 5%;
 }
 .p_midt {
-  margin: 3% 5% 7% 5%;
+  margin: 3% 5% 5% 5%;
   max-width: 65ch;
+  text-align: center;
 }
 .studierabat_h2 {
   text-align: center;
@@ -84,17 +85,14 @@
   grid-row: 1;
   grid-column: 1;
   background-color: #d2ddc5;
-  filter: drop-shadow(4px 2px 5px #00000069);
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  filter: drop-shadow(0px 2px 5px #00000069);
+  width: 100%;
 }
 .produkt_grid {
   display: grid;
   grid-template-columns: 1fr;
+  place-items: center;
+  margin: 2rem 0 5rem 0;
 }
 .produkter {
   width: 30%;
@@ -114,7 +112,43 @@
   z-index: 10;
   place-items: center;
   justify-content: space-around;
-  margin-left: 5%;
+}
+
+.flex div {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+.flex div img {
+  grid-row: 1;
+  grid-column: 1;
+  aspect-ratio: 1/1;
+  width: 60%;
+}
+
+.flex div p {
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 10;
+  height: 20%;
+  width: 60%;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.h1index {
+  font-family: "bodoni", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 4rem;
+  margin-bottom: 3rem;
+  border-top: 1px solid black;
+}
+
+.line {
+  border-bottom: 1px solid black;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 700px) {
@@ -126,10 +160,10 @@
   }
   .p_midt {
     text-align: center;
-    margin: 1% auto 5% auto;
+    margin: 1% auto 3% auto;
   }
   .studierabat {
-    margin: 5% 0 8% 5%;
+    margin: 5% 0 7% 0;
     text-align: center;
   }
   .index_overskrift {
@@ -167,6 +201,34 @@
     font-family: "bodoni", sans-serif;
     text-align: center;
     font-size: 125%;
-    margin-left: 1%;
+    margin-left: 0;
+  }
+
+  .flex div {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  .flex div img {
+    grid-row: 1;
+    grid-column: 1;
+    aspect-ratio: 1/1;
+    width: 60%;
+  }
+
+  .flex div p {
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 10;
+    height: 15%;
+    width: 60%;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .line {
+    border-bottom: 1px solid black;
+    margin-bottom: 2rem;
   }
 }
