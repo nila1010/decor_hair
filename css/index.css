@@ -55,32 +55,41 @@
 .index_grid_indhold2 {
   margin: 0% 0 10% 0;
 }
-/******** billeder på index og grøn box *******/
+/******** billeder på index med aflang grøn box *******/
 
 .green {
   aspect-ratio: 151/16;
-  width: 100%;
   grid-row: 1;
   grid-column: 1;
   background-color: #d2ddc5;
   filter: drop-shadow(4px 2px 5px #00000069);
-  margin-top: 8%;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
-
+.produkt_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 .produkter {
   width: 30%;
-  height: auto;
+  aspect-ratio: 1/1;
   object-fit: cover;
   grid-row: 1;
   grid-column: 1;
   z-index: 10;
 }
 .flex p {
-  background-color: white;
-  opacity: 50%;
+  background-color: rgba(240, 233, 222, 0.6);
 }
 .flex {
   display: flex;
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 10;
 }
 
 @media (min-width: 700px) {
