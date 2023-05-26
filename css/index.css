@@ -5,6 +5,7 @@
 }
 .p_midt {
   margin: 3% 5% 7% 5%;
+  max-width: 65ch;
 }
 /**** knap *****/
 
@@ -18,7 +19,21 @@
   font-family: "bodoni", sans-serif;
   text-align: center;
   font-size: 125%;
+  margin-left: 10.5rem;
 }
+
+.bestiltid_index2 {
+  color: rgb(0, 0, 0);
+  background: #f0e9dc;
+  text-decoration: none;
+  transition: all 0.55s ease;
+  padding: 1rem 1rem 1rem 1rem;
+  filter: drop-shadow(4px 2px 5px #00000069);
+  font-family: "bodoni", sans-serif;
+  text-align: center;
+  font-size: 125%;
+}
+
 .boks_grid {
   display: grid;
   grid-template-columns: 1;
@@ -50,10 +65,12 @@
   margin: 20% 0 10% 5%;
 }
 .index_grid_indhold1 {
-  margin: 10% 0 6% 0;
+  margin: 18% 0 3% 0;
+  text-align: center;
 }
 .index_grid_indhold2 {
   margin: 0% 0 10% 0;
+  text-align: center;
 }
 /******** billeder på index med aflang grøn box *******/
 
@@ -100,14 +117,14 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
-    padding: 1% 4% 4% 4%;
+    padding: 1% 4% 2% 4%;
   }
   .p_midt {
     text-align: center;
-    margin: 2% 0 5% 0;
+    margin: 1% auto 5% auto;
   }
   .studierabat {
-    margin: 5% 0 10% 5%;
+    margin: 5% 0 8% 5%;
     text-align: center;
   }
   .index_overskrift {
