@@ -7,6 +7,10 @@
   margin: 3% 5% 7% 5%;
   max-width: 65ch;
 }
+.studierabat_h2 {
+  text-align: center;
+}
+
 /**** knap *****/
 
 .bestiltid_index {
@@ -19,7 +23,7 @@
   font-family: "bodoni", sans-serif;
   text-align: center;
   font-size: 125%;
-  margin-left: 10.5rem;
+  margin-left: 32%;
 }
 
 .bestiltid_index2 {
@@ -32,6 +36,7 @@
   font-family: "bodoni", sans-serif;
   text-align: center;
   font-size: 125%;
+  margin-left: 36%;
 }
 
 .boks_grid {
@@ -137,5 +142,31 @@
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
+  }
+
+  .bestiltid_index {
+    color: rgb(0, 0, 0);
+    background: #f0e9dc;
+    text-decoration: none;
+    transition: all 0.55s ease;
+    padding: 1rem 1rem 1rem 1rem;
+    filter: drop-shadow(4px 2px 5px #00000069);
+    font-family: "bodoni", sans-serif;
+    text-align: center;
+    font-size: 125%;
+    margin-left: 32%;
+  }
+
+  .bestiltid_index2 {
+    color: rgb(0, 0, 0);
+    background: #f0e9dc;
+    text-decoration: none;
+    transition: all 0.55s ease;
+    padding: 1rem 1rem 1rem 1rem;
+    filter: drop-shadow(4px 2px 5px #00000069);
+    font-family: "bodoni", sans-serif;
+    text-align: center;
+    font-size: 125%;
+    margin-left: 1%;
   }
 }

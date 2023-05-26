@@ -61,7 +61,6 @@ hr {
 @media (max-width: 700px) {
   .grid_1_1 {
     grid-template-columns: 1fr;
-
   }
 
   .afstand {
@@ -77,11 +76,11 @@ hr {
     margin-top: 1rem;
   }
 
-  .afstand_div{
+  .afstand_div {
     margin: 0;
   }
 
-  .afstand_div h2{
+  .afstand_div h2 {
     text-align: center;
     margin-bottom: 1rem;
   }
@@ -93,9 +92,6 @@ hr {
   .boks_grid {
     align-items: center;
     margin: 0 0 2rem 3rem;
-
-  }
-
   }
   .boks {
     width: 100%;
