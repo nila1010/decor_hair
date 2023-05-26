@@ -49,6 +49,15 @@ hr {
   margin: 0% 0% 3% 0%;
 }
 
+.afstand h2 {
+  margin-bottom: 1rem;
+}
+
+.afstand_div {
+  margin-left: 3rem;
+  margin-top: -1.5rem;
+}
+
 @media (max-width: 600px) {
   .grid_1_1 {
     grid-template-columns: 1fr;

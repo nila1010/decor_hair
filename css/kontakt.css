@@ -1,5 +1,5 @@
 .line {
-  border-right: 2px solid #f0e9dc;
+  border-right: 2px solid black;
 }
 
 article {
@@ -82,6 +82,7 @@ article img {
 }
 
 .map iframe {
+  margin-top: 1.5rem;
   height: 100%;
   width: 100%;
   left: 0;
