@@ -54,12 +54,14 @@ input {
 }
 
 .meddelelse input {
+  text-align: start;
   width: 195%;
+  height: 200px;
 }
 
 .kontaktmig button {
   grid-row: 4;
-  margin-top: 7rem;
+  margin-top: 4%;
   width: 8rem;
   height: 2rem;
   background-color: #f0e9dc;
