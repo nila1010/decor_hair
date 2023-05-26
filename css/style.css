@@ -252,10 +252,13 @@ footer div:nth-child(3) {
 
   nav {
     height: 2rem;
+    text-align: -moz-right;
+    text-align: -webkit-right;
   }
 
   nav ul {
     display: none;
+    gap: 1rem;
   }
 
   nav.shown ul {
@@ -263,5 +266,14 @@ footer div:nth-child(3) {
     flex-flow: column;
     text-align: center;
     background-color: #d2ddc5;
+  }
+
+  .bestiltid {
+    margin: 0;
+    filter: none;
+  }
+
+  button {
+    border: none;
   }
 }
