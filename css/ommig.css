@@ -17,7 +17,6 @@
   grid-column: 1;
   background-color: #d2ddc5;
   filter: drop-shadow(4px 2px 5px #00000069);
-
   margin-left: 8%;
   margin-top: 8%;
 }
@@ -27,7 +26,6 @@
   gap: 10px;
   padding: 4% 4% 2% 4%;
 }
-
 .imgs {
   display: grid;
   width: 60%;
@@ -36,7 +34,6 @@
   gap: 20%;
   margin: 0% 0% 4% 22%;
 }
-
 hr {
   border: none;
   height: 2px;
@@ -52,6 +49,36 @@ hr {
   margin: 0% 0% 3% 0%;
 }
 
-.boks {
-  background-color: #d22ddc5;
+@media (max-width: 600px) {
+  .grid_1_1 {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hr {
+    border: 0px;
+  }
+
+  .img_rikke {
+    width: 100%;
+    height: auto;
+    max-width: 70%;
+    align-items: center;
+  }
+  .boks {
+    width: 100%;
+    height: auto;
+    max-width: 70%;
+    align-items: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
 }
