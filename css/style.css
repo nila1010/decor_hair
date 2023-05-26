@@ -127,6 +127,14 @@ p {
 header {
   background-color: #d2ddc5;
   z-index: 100;
+  filter: drop-shadow(4px 2px 5px #00000069);
+}
+.header {
+  background-color: #d2ddc5;
+  z-index: 100;
+}
+.header_transparent {
+  background-color: #d2ddc55e; /* Transparent background color */
 }
 
 .flexheader {
