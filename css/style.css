@@ -128,6 +128,13 @@ header {
   background-color: #d2ddc5;
   z-index: 100;
 }
+.header {
+  background-color: #d2ddc5;
+  z-index: 100;
+}
+.header_transparent {
+  background-color: #d2ddc55e; /* Transparent background color */
+}
 
 .flexheader {
   display: flex;
