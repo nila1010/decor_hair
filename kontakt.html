@@ -61,7 +61,7 @@
             </div>
             <div class="kontaktmig">
                 <h1>KONTAKT MIG</h1>
-                <form name="Kontakt">
+                <form name="Kontakt" Netlify>
                     <label>
                         <input placeholder="Navn" type="text" name="navn" required>
                     </label>
@@ -71,9 +71,8 @@
                     <label class="email">
                         <input placeholder="Email" type="email" name="email" required>
                     </label>
-                    <label class="meddelelse">
-                        <input placeholder="Meddelelse" type="textarea" name="text" rows="4" cols="10" required>
-                    </label>
+                    <textarea class="meddelelse" name="text" placeholder="Meddelelse" rows="10" cols="100"
+                        required></textarea>
                     <button type="submit">SEND</button>
                 </form>
             </div>

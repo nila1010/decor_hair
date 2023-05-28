@@ -34,7 +34,7 @@ form {
 input {
   border: 3px solid #f0e9dc;
   border-radius: 4px;
-  font-family: "bodoni", sans-serif;
+  font-family: "PT sans", sans-serif;
   color: #000;
   height: 1.5rem;
   width: 90%;
@@ -46,17 +46,19 @@ input {
 }
 
 .email input {
-  width: 195%;
+  width: 196%;
 }
 
 .meddelelse {
   grid-row: 3;
-}
-
-.meddelelse input {
-  text-align: start;
-  width: 195%;
-  height: 200px;
+  grid-column: 1;
+  overflow: hidden;
+  width: 196%;
+  border: 3px solid #f0e9dc;
+  border-radius: 4px;
+  font-family: "PT sans", sans-serif;
+  color: #000;
+  padding: 10px;
 }
 
 .kontaktmig button {
