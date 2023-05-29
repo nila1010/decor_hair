@@ -1,3 +1,9 @@
+html {
+  --primary: #000;
+  --secondary: #f0b15b;
+  --header: #fff;
+}
+
 /***************************MOBIL VERSION******************************/
 @media (max-width: 700px) {
   .menu_style {
@@ -12,7 +18,7 @@
     position: relative;
     font-size: 0.7rem;
     text-decoration: none;
-    color: black;
+    color: var(--primary);
   }
   /*****************STREGER MOBIL********************/
 
@@ -33,7 +39,7 @@
     font-size: 0.8rem;
   }
   .p_pris {
-    color: #f0b15b;
+    color: var(--secondary);
   }
   .p_kom {
     font-size: 0.5rem;
@@ -41,7 +47,7 @@
   .h3_kat {
     font-size: 1rem;
     text-decoration: underline;
-    text-decoration-color: #f0b15b;
+    text-decoration-color: var(--secondary);
     text-underline-offset: 6px;
     text-decoration-thickness: 1.5px;
   }
@@ -118,7 +124,7 @@
   .h3_kat {
     font-size: 1.5rem;
     text-decoration: underline;
-    text-decoration-color: #f0b15b;
+    text-decoration-color: var(--secondary);
     text-underline-offset: 6px;
     text-decoration-thickness: 2px;
   }
@@ -126,7 +132,7 @@
     padding: 0% 0% 20% 4%;
   }
   .p_pris {
-    color: #f0b15b;
+    color: var(--secondary);
   }
   .p_kom {
     font-size: 0.8rem;
@@ -136,7 +142,7 @@
     position: relative;
     font-size: 1wrem;
     text-decoration: none;
-    color: black;
+    color: var(--primary);
   }
 
   .pris_menu a:hover {
