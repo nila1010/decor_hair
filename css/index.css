@@ -1,7 +1,7 @@
 /******* overskrift og p tekst index der skal stå i midten******/
 
 .index_overskrift {
-  margin: 4% 0 3% 5%;
+  margin: 4% 0 3% 0%;
 }
 .p_midt {
   margin: 3% 5% 5% 5%;
@@ -191,7 +191,7 @@
     text-align: center;
   }
   .index_overskrift {
-    margin: 4% 0 0% 5%;
+    margin: 4% 0 0% 0%;
   }
   .video {
     width: 100vw;
