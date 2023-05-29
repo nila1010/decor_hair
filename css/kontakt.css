@@ -83,6 +83,7 @@ article img {
 .map {
   padding: 0 2rem 25% 2rem;
   position: relative;
+  margin-bottom: 1.5rem;
 }
 
 .map iframe {
