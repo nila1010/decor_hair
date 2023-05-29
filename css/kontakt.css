@@ -1,5 +1,11 @@
+html {
+  --primary: #000;
+  --secondary: #f0b15b;
+  --header: #fff;
+  --kontakt: #f0e9dc;
+}
 .line {
-  border-right: 2px solid black;
+  border-right: 2px solid var(--primary);
 }
 
 article {
@@ -32,10 +38,10 @@ form {
 }
 
 input {
-  border: 3px solid #f0e9dc;
+  border: 3px solid var(--kontakt);
   border-radius: 4px;
   font-family: "PT sans", sans-serif;
-  color: #000;
+  color: var(--primary);
   height: 1.5rem;
   width: 90%;
   padding: 10px;
@@ -54,10 +60,10 @@ input {
   grid-column: 1;
   overflow: hidden;
   width: 196%;
-  border: 3px solid #f0e9dc;
+  border: 3px solid var(--kontakt);
   border-radius: 4px;
   font-family: "PT sans", sans-serif;
-  color: #000;
+  color: var(--primary);
   padding: 10px;
 }
 
@@ -66,7 +72,7 @@ input {
   margin-top: 4%;
   width: 8rem;
   height: 2rem;
-  background-color: #f0e9dc;
+  background-color: var(--kontakt);
   border: 0;
   transition: all 0.55s ease;
   filter: drop-shadow(4px 2px 3px #00000069);
@@ -97,7 +103,7 @@ article img {
 }
 
 .send {
-  background: #f0e9dc;
+  background: var(--kontakt);
 
   transition: all 0.55s ease;
 

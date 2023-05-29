@@ -18,6 +18,12 @@ gray - #F0E9DC
 /* GLOBAL
 -------------------*/
 
+html {
+  --primary: #000;
+  --secondary: #f0b15b;
+  --header: #fff;
+}
+
 @font-face {
   font-family: "bodoni";
   src: url(/1574087879938-bodoni-72-book-webfont.woff);
@@ -64,7 +70,7 @@ h1 {
 
 h2 {
   font-family: "bodoni", sans-serif;
-  color: #f0b15b;
+  color: var(--secondary);
   font-size: 2rem;
 }
 
@@ -98,7 +104,7 @@ p {
 }
 
 .banner h1:first-child {
-  color: #fff;
+  color: var(--header);
   font-size: 15cqw;
   grid-row: 1;
   grid-column: 1;
@@ -107,6 +113,10 @@ p {
 }
 
 .banner img:last-child {
+  grid-row: 1;
+  grid-column: 1;
+}
+.banner a {
   grid-row: 1;
   grid-column: 1;
 }
