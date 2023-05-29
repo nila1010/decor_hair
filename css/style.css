@@ -116,6 +116,10 @@ p {
   grid-row: 1;
   grid-column: 1;
 }
+.banner a {
+  grid-row: 1;
+  grid-column: 1;
+}
 
 .logo {
   display: flex;
