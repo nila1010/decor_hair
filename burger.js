@@ -15,3 +15,14 @@ function toggleMenu() {
 }
 
 btn.addEventListener("click", toggleMenu);
+
+window.addEventListener("resize", SkiftVideo);
+
+function SkiftVideo() {
+  var windowWidth = window.innerWidth;
+  if (windowWidth < 700) {
+    document.querySelector("video").src = "https://www.nila10.dk/kea/05_indhold/decorhair/video/mobil.webm";
+  } else {
+    document.querySelector("video").src = "https://www.nila10.dk/kea/05_indhold/decorhair/video/web.webm";
+  }
+}
