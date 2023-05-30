@@ -110,6 +110,10 @@ article img {
   filter: drop-shadow(4px 2px 5px #00000069);
 }
 
+iframe {
+  border: 0;
+}
+
 @media (max-width: 700px) {
   .grid_1_1 {
     grid-template-columns: 1fr;
