@@ -7,6 +7,7 @@
   margin: 3% 5% 5% 5%;
   max-width: 65ch;
   text-align: center;
+  padding-bottom: 4%;
 }
 .studierabat_h2 {
   text-align: center;
@@ -25,7 +26,7 @@
   text-align: center;
   font-size: 125%;
   z-index: 10;
-  margin-top: 9rem;
+  margin-top: 34%;
 }
 
 .bestiltid_index {
@@ -38,7 +39,7 @@
   font-family: "bodoni", sans-serif;
   text-align: center;
   font-size: 125%;
-  margin-left: 32%;
+  margin-left: 25%;
 }
 
 .bestiltid_index2 {
@@ -51,12 +52,12 @@
   font-family: "bodoni", sans-serif;
   text-align: center;
   font-size: 125%;
-  margin-left: 36%;
+  margin-left: 31%;
 }
 
 .boks_grid {
   display: grid;
-  grid-template-columns: 1;
+  grid-template-columns: 1fr;
 }
 .boks {
   aspect-ratio: 40/38;
@@ -187,6 +188,7 @@
   .p_midt {
     text-align: center;
     margin: 1% auto 3% auto;
+    padding-bottom: 1%;
   }
   .studierabat {
     margin: 5% 0 7% 0;
@@ -217,7 +219,7 @@
     text-align: center;
     font-size: 125%;
     z-index: 10;
-    margin-top: 9rem;
+    margin-top: 14%;
   }
   .bestiltid_index {
     color: rgb(0, 0, 0);
